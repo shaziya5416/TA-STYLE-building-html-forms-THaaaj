@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  CUSTOM STYLES  */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    padding: 200px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background: url("bg-intro-desktop.png") , linear-gradient(rgb(244,119,120),rgb(244,119,120));
+}
+.box1{
+    display: flex;
+    justify-content: flex-start;
+}
+h1{
+    margin-top: 150px;
+    color: white;
+    font: 800 60px/1  'Open Sans',sans-serif;
+}
+article p{
+    color: white;
+    margin-top: 30px;
+    font: 500 19px 'Open Sans', sans-serif;
+}
+
+/*F O R M*/
+.form{
+    max-width: 600px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.trial{
+    background-color: rgb(94,84,163);
+    height: 60px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow:3px 3px 10px 2px rgb(0, 0, 0,0.5);
+
+}
+form{
+    background-color: white;
+    height: 450px;
+    border-radius: 8px;
+    padding: 35px;
+    box-shadow:3px 3px 10px 2px rgb(0, 0, 0,0.5);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+::placeholder{
+    color: grey;
+    font:600 16px 'Open Sans', sans-serif;
+ 
+}
+button{
+    width: 100%;
+    background-color:rgb(92,204,138);
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 600;
+    border-radius: 8px;
+    border:0;
+    box-shadow: 0 3px 2px 2px rgb(88,191,130,1);
+    margin-bottom: 17px;
+}
+fieldset p{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+}
+span{
+    color: red;
+    font-weight: 600;
+}
