@@ -1,0 +1,337 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(230,230,230);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* G E N E R A L  S T Y L E S */
+
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+.container{
+	max-width:1400px;
+	margin:0 auto;
+}
+section{
+	background-color: white;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+input{
+	border: 0;
+	width: 100%;
+	margin: 16px 5px;
+}
+
+/*H E A D E R*/
+
+header{
+	padding:20px 70px;
+}
+h2{
+	font:400 35px/1 'Open-Sans' , sans-serif;
+	margin-left: 10px;
+}
+h2 strong{
+	font-weight: 700;
+}
+a{
+	text-decoration: none;
+	font: 700 14px/1 'Open Sans', sans-serif;
+	color: black;
+	margin-left: 60px;
+}
+a:hover{
+	color: rgb(105,198,186);
+}
+
+/* L E T S  B E G I N*/
+
+.begin{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("banner.jpg");
+	padding: 100px 230px;
+	text-align: center;
+}
+h1{
+	font:600 50px 'Open Sans', sans-serif;
+	color: white;
+}
+.circles{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+.circ1{
+	width: 7px;
+	height: 7px;
+	background-color: white;
+	border-radius: 50%;
+	margin-bottom: 7px;
+}
+.circ2{
+	width: 11px;
+	height: 11px;
+}
+.circ3{
+	width: 5px;
+	height: 5px;
+}
+h6{
+	margin:20px 0;
+	color: white;
+	font:400 27px/1 'Open Sans' , sans-serif;
+}
+.begin-btn{
+	width: 50px;
+	height: 50px;
+	background-color: rgb(105,198,186);
+	border-radius: 50%;
+	border: 0;
+	display: inline;
+	color: white;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.begin-form{
+	background-color: white;
+	padding: 20px;
+	font:600 15px/1 'Open-Sans', sans-serif;
+	border: ;
+}
+
+.destination{
+	text-align: left;
+}
+.dates{
+	text-align: left;
+}
+.btn input{
+	height:40px;
+	background-color:rgb(105,198,186);
+	color: white;
+	text-transform: uppercase;
+}
+.your-journey{
+	background-image:linear-gradient(rgb(239,239,239),rgb(239,239,239));
+	padding: 50px 230px;
+}
+p{
+	font-size: 15px;
+	margin: 15px 0;
+}
+button{
+	height: 45px;
+	padding: 15px;
+	font-weight: 600;
+	color: white;
+	border: none;
+}
+.your-journey button{
+	background-color: rgb(105,198,186);
+}
+
+/*E U R O P E*/
+
+.europe{
+	position: relative;
+}
+.nav-euro{
+	position: absolute;
+	left:495px;
+	top:240px;
+}
+.nav1{
+	margin-right: 4px;
+	color: rgba(255,255,255);
+	background-color: rgba(0,0,0,0.7);
+	font-size: 15px;
+	width: 60px;
+	height: 60px;
+}
+.art{
+	position: absolute;
+	left:620px;
+	top: 140px;
+	background-color: rgb(105,198,186);
+	padding: 50px 30px;
+	color: white;
+}
+.art button{
+	background-color: white;
+	color: rgb(105,198,186);
+}
+.asia-img{
+	position: relative;
+	left: 700px;
+}
+.asia-art{
+	position:absolute;
+	left:80px;
+	width: 658px;
+	background-color: rgb(198,105,149);
+}
+.nav-asia{
+	position: absolute;
+	left:735px;
+}
+.asia-art button{
+	color: rgb(198,105,149);
+}
+.world-1{
+	background-color: rgb(105,198,186);
+	width: 200px;
+}
+.world-1 img{
+	margin: 0 35px;
+	margin-top: 30px;
+}
+h5{
+	color: white;
+	font-weight: 600;
+	text-align: center;
+}
+.asia-1{
+	background-color: rgb(198,105,149);
+}
+
+/*M O R E   P L A C E S */
+
+.more-places{
+  padding: 50px 150px;
+  position: relative;
+}
+.more-places1{
+	margin-top: 20px;
+}
+.more-places img{
+	margin-right: 20px;
+}
+.round{
+	position: absolute;
+	border-right: 0px solid black;
+	border-radius: 90px;
+	height: 200px;
+	left: 440px;
+	padding: 30px 0;
+	background-color: white;
+}
+.round h5{
+	color:black;
+	text-align: left;
+}
+.money{
+	background-color: rgb(105,198,186);
+	height: 180px;
+	width: 240px;
+}
+.round .pink{
+	color: rgb(198,105,149);
+}
+.more-places button{
+	background-color: rgb(105,198,186);
+	margin-top: 40px;
+	margin-left :440px;
+}
+.contact-form{
+	position: relative;
+}
+.contact-form iframe{
+	filter:opacity(50%);
+}
+.contact-form form{
+	background-color: white;
+	max-width: 650px;
+	height: 500px;
+	position:absolute;
+	top:150px;
+	left:700px;
+
+}
+textarea{
+	border: 0;
+	background-color: rgb(245,245,245);
+}
+.contact-form input{
+	background-color:rgb(245,245,245);
+	height: 40px;
+}
+.contact-form1 .flex{
+	justify-content: space-between;
+}
+input .width{
+	width:300px;
+}
+.contact-form1 fieldset .flex{
+	flex-wrap: wrap;
+}
+.contact-form1 .button2 {
+ background-color: rgb(105,198,186);
+} 
+/*F 0 0 T E R*/
+
+footer{
+	padding:20px 100px;
+	height :70px;
+	color: white;
+	background-color: rgb(105,198,186);
+	text-align: center;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
